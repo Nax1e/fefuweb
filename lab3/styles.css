@@ -72,15 +72,15 @@ header {
 }
 .side-images {
     width: 34%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 150px;
+    float: right;
+    height: 150px;;
 }
 .side-images div {
     background: lightgray;
-    height: 32%;
+    height: 30%;
     overflow: hidden;
+    display: block;
+    margin-bottom: 10px;
 }
 .logos-container {
     text-align: center;
